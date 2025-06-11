@@ -1,39 +1,55 @@
-# 🚀 **DevOps Real-time Project: Swiggy Clone App Deployment**
+# 🍔 DevOps Project: Swiggy Clone CI/CD Pipeline
 
-In this **real-time DevOps project**, I demonstrate how to **deploy a Swiggy Clone App** using various modern tools and services in the DevOps ecosystem.
-## 🛠️ Tools & Services Used:
+This project demonstrates an end-to-end DevOps CI/CD pipeline for a containerized Swiggy clone application. The pipeline integrates security, quality, and automation tools like SonarQube, Trivy, and OWASP, deployed and orchestrated using Jenkins and Terraform.
 
-1. **Terraform** ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-2. **GitHub** ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-3. **Jenkins** ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-4. **SonarQube** ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-5. **OWASP** ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
-6. **Trivy** ![Trivy](https://img.shields.io/badge/Trivy-00979D?style=flat-square&logo=trivy&logoColor=white)
-7. **Docker & DockerHub** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![DockerHub](https://img.shields.io/badge/DockerHub-2496ED?style=flat-square&logo=docker&logoColor=white)
+![image](https://github.com/user-attachments/assets/67ce3626-f6d1-407b-93a0-1c295bb2ebe0)
 
 ---
 
-### 📹 Video Link: [**Click Here**](https://youtu.be/x55z7rk0NAU?si=gM1_61wUoq3ChiHD)
+## CI/CD Pipeline in Jenkins
+![image](https://github.com/user-attachments/assets/1249da3c-a6fe-4381-a809-3f81dc028d47)
 
-### 📂 Terraform Script Repository: [**Terraform Script for Swiggy Clone App**](https://github.com/KastroVKiran/Terraform-Script-Swiggy-Kastro.git)
-
-### 📺 Docker Playlist: [**Watch on YouTube**](https://youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh&si=c75uaxvjazr-mIdw)
-
----
-
-## About Me  
-<img src="https://media.licdn.com/dms/image/v2/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718971147172?e=1733356800&v=beta&t=bz-SXs7FHwIDqQ9xlPibErrGvpHDdAjMJEr9WqHsi9A" alt="Kastro Profile Image" width="150" height="150" style="border-radius:50%;">
-
-**Kastro**    
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kastro-kiran/)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KastroVKiran)  
+## SonarQube Analysis
+![image](https://github.com/user-attachments/assets/79c84b0c-d2b5-4eaa-af8e-a55105bb70d4)
 
 ---
 
-## 📢 **Share Your Experience!**
+## 🚀 Tech Stack & Tools Used
 
-If you've successfully deployed the **Swiggy Clone App** using this project, I'd love to hear about it!  
-- 📹 **Post your deployment video** and **tag me on LinkedIn**: [**Kastro Kiran**](https://www.linkedin.com/in/kastro-kiran/)
-- 💬 **Share your experience** of deploying the app and the tools you used.
+| Tool       | Purpose                            |
+|------------|------------------------------------|
+| **Terraform** | Infrastructure provisioning         |
+| **GitHub**   | Source code management (SCM)       |
+| **Jenkins**  | CI/CD orchestration                |
+| **SonarQube**| Code quality and static analysis   |
+| **OWASP ZAP**| Dynamic application security testing (DAST) |
+| **Trivy**    | Container vulnerability scanning   |
+| **Docker**   | Containerization                   |
+| **DockerHub**| Container image registry           |
 
-> “DevOps is not just a job; it's a journey to continuously improve processes and automate solutions.” – **Kastro**
+---
+
+## 🛠️ Pipeline Stages Overview
+
+1. **Code Checkout** from GitHub
+2. **Build Docker Image** using Dockerfile
+3. **Run Static Code Analysis** using SonarQube
+4. **Run Security Scans** using:
+   - **Trivy** for image scanning
+   - **OWASP ZAP** for dynamic vulnerability testing
+5. **Push Docker Image** to DockerHub
+6. **Deploy to Test/Prod** using Jenkins & Docker
+
+---
+
+## ⚙️ Infrastructure Setup (via Terraform) : [terraform-ec2-sg](https://github.com/rushi2828/terraform-ec2-sg.git)
+
+```bash
+cd terraform/
+terraform init
+terraform plan
+terraform apply
+```
+---
+
+
