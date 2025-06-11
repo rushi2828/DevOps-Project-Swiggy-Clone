@@ -35,7 +35,16 @@ This project demonstrates an end-to-end DevOps CI/CD pipeline for a containerize
 
 ---
 
+## Jenkins Plugin used
+![image](https://github.com/user-attachments/assets/552b019a-324c-43fe-9068-57419ab57eee)
+![image](https://github.com/user-attachments/assets/9648ad8a-46a1-42b4-ac67-4570e507f345)
+![image](https://github.com/user-attachments/assets/43ae270c-26a1-42bf-b8f2-89500dd34fd9)
+![image](https://github.com/user-attachments/assets/851cacb7-9578-47bb-a90c-816b0e259394)
+![image](https://github.com/user-attachments/assets/da7b74cc-1c65-4068-8c1a-5407540c5cc2)
+![image](https://github.com/user-attachments/assets/e2a58760-7ca5-446b-ba1b-c389e422256e)
 
+
+---
 
 ## 🛠️ Pipeline Stages Overview
 
