@@ -62,7 +62,6 @@ This project demonstrates an end-to-end DevOps CI/CD pipeline for a containerize
 ## ⚙️ Infrastructure Setup (via Terraform) : [terraform-ec2-sg](https://github.com/rushi2828/terraform-ec2-sg.git)
 
 ```bash
-cd terraform/
 terraform init
 terraform plan
 terraform apply
