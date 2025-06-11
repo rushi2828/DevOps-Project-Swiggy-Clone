@@ -6,14 +6,6 @@ This project demonstrates an end-to-end DevOps CI/CD pipeline for a containerize
 
 ---
 
-## CI/CD Pipeline in Jenkins
-![image](https://github.com/user-attachments/assets/1249da3c-a6fe-4381-a809-3f81dc028d47)
-
-## SonarQube Analysis
-![image](https://github.com/user-attachments/assets/79c84b0c-d2b5-4eaa-af8e-a55105bb70d4)
-
----
-
 ## 🚀 Tech Stack & Tools Used
 
 | Tool       | Purpose                            |
@@ -28,6 +20,22 @@ This project demonstrates an end-to-end DevOps CI/CD pipeline for a containerize
 | **DockerHub**| Container image registry           |
 
 ---
+
+## CI/CD Pipeline in Jenkins
+![image](https://github.com/user-attachments/assets/1249da3c-a6fe-4381-a809-3f81dc028d47)
+
+## SonarQube Analysis
+![image](https://github.com/user-attachments/assets/79c84b0c-d2b5-4eaa-af8e-a55105bb70d4)
+
+---
+
+## Trivy.txt
+
+![image](https://github.com/user-attachments/assets/466f98e3-042e-4e40-81aa-f03fba9da743)
+
+---
+
+
 
 ## 🛠️ Pipeline Stages Overview
 
